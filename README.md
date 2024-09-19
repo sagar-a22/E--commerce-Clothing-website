@@ -18,43 +18,47 @@ Features-
 
 Technology Stack-
 
-Backend: Django (Python)
+1)Backend: Django (Python)
 
-Frontend: HTML, CSS, JavaScript, Bootstrap
+2)Frontend: HTML, CSS, JavaScript, Bootstrap
 
-Database: SQLite (default Django database)
+3)Database: SQLite (default Django database)
 
-User Authentication: Django's built-in authentication system for user login and registration.
+4)User Authentication: Django's built-in authentication system for user login and registration.
 
-Image Handling: Django's built-in ImageField for product images
+5)Image Handling: Django's built-in ImageField for product images
 
-Forms & Validation: Django forms with validation for contact form submission
+6)Forms & Validation: Django forms with validation for contact form submission
 
 How to Run the Project-
 
-Clone the repository:
+*Clone the repository:
 
 git clone https://github.com/your-username/your-repo-name.git
 
-Navigate to the project directory:
+*Navigate to the project directory:
 
 cd your-repo-name
 
-Install dependencies:
+*Install dependencies:
 
 pip install -r requirements.txt
 
-Apply migrations:
+*Apply migrations:
 
 python manage.py migrate
 
-Run the development server:
+*Run the development server:
 
 python manage.py runserver
 
 
-Future Enhancements
+Future Enhancements-
+
 Payment Gateway Integration: Implement a payment system for purchases.
+
 Search Functionality: Add a search bar for users to search for products.
+
 Order History: Allow users to view their past orders.
+
 Add to Cart: Users can add products to their shopping cart for later purchase.
